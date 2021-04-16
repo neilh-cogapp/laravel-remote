@@ -1,21 +1,20 @@
 {
-    "name": "spatie/laravel-remote",
-    "description": "Execute Artisan commands on remote servers",
+    "name": "neilh-cogapp/laravel-remote",
+    "description": "Execute Artisan commands on remote servers - fork for php7 compatibility",
     "keywords": [
-        "spatie",
         "laravel-remote"
     ],
-    "homepage": "https://github.com/spatie/laravel-remote",
+    "homepage": "https://github.com/neilh-cogapp/laravel-remote",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
+            "name": "Neil Hawkins",
+            "email": "neilh@cogapp.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "illuminate/contracts": "^8.0",
         "spatie/laravel-package-tools": "^1.4.3",
         "spatie/ssh": "^1.5"
